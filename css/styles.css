@@ -81,21 +81,19 @@ body {
   color: var(--color-black);
 }
 
-/* Стилізація навігації */
-.header-container-nav {
-  display: inline-flex;
-  align-items: center;
+    /* Стилізація навігації */
+      /* .header-container-nav {
+        display: inline-flex;
+        align-items: center;
+      } */
+
+
+
+/* .nav-list {
+  display: inline-flex; */
 }
 
-.logo-header {
-  margin-right: 93px;
-}
-
-.header-nav-list {
-  display: inline-flex;
-}
-
-.header-nav-item:not(:last-child),
+/* .nav-list__item:not(:last-child),
 .header-contact-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -107,9 +105,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   padding: 32px 0;
-}
+} */
 
-.header-nav-link {
+/* .header-nav-link {
   color: var(--body-title-color);
 }
 
@@ -127,27 +125,27 @@ body {
   left: 0;
   border-radius: 2px;
   background-color: var(--accent-color);
-}
-.header-contact-list {
+} */
+/* .header-contact-list {
   display: inline-flex;
 }
 
 .header-contact-item:hover .header-contact-item-icon {
   fill: var(--accent-color);
-}
+} */
 
-.header-contact-link {
+/* .header-contact-link {
   display: flex;
   align-items: center;
   color: var(--body-text-color);
-}
+} */
 
-.header-contact-item-icon {
+/* .header-contact-item-icon {
   margin-right: 10px;
   fill: currentColor;
 
   transition: fill 250ms var(--timing-function);
-}
+} */
 
 .header-contact-item .header-contact-link:hover,
 .header-contact-item:hover .header-contact-link,
