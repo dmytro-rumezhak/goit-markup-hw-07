@@ -147,27 +147,10 @@ body {
   transition: fill 250ms var(--timing-function);
 } */
 
-.header-contact-item .header-contact-link:hover,
-.header-contact-item:hover .header-contact-link,
-.header-contact-item .header-contact-link:focus,
-.header-nav-item .header-nav-link:hover,
-.header-nav-item .header-nav-link:focus,
-.footer-contact-link:hover,
-.footer-contact-link:focus,
-.footer-address-link:hover,
-.footer-address-link:focus {
-  color: var(--accent-color);
-}
 
-.header-nav-link,
-.header-contact-link,
-.footer-contact-link,
-.footer-address-link {
-  transition: color 250ms var(--timing-function);
-}
 
 /* Стилізація кнопок */
-.btn {
+/* .btn {
   border: none;
   border-radius: 4px;
   font-family: inherit;
@@ -197,10 +180,10 @@ body {
 .btn-hero:hover,
 .btn-hero:focus {
   background: #188ce8;
-}
+} */
 
 /* Стилізація Героя */
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img.jpg);
@@ -224,15 +207,15 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-title-color);
-}
+} */
 
 /* Стилізація Преимущества */
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -243,9 +226,9 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.advantages-list {
+/* .advantages-list {
   display: flex;
 }
 
@@ -282,10 +265,10 @@ body {
 
 .advantages-desc {
   line-height: 1.71;
-}
+} */
 
 /* Стилізація Чем мы занимаемся*/
-.activity-section {
+/* .activity-section {
   padding-top: 0;
 }
 
@@ -323,10 +306,10 @@ body {
   text-transform: uppercase;
   color: var(--color-white);
   background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* Стилізація Наша команд*/
-.team {
+/* .team {
   background-color: var(--background-select-color);
 }
 
@@ -408,10 +391,10 @@ body {
 .social-link:hover .social-link-svg,
 .social-link:focus .social-link-svg {
   fill: var(--color-white);
-}
+} */
 
 /* Стидізація Постоянние клиенты */
-.our-clients {
+/* .our-clients {
   display: inline-flex;
 }
 .our-clients-item {
@@ -450,7 +433,7 @@ body {
 .our-clients-link:hover,
 .our-clients-link:focus {
   border-color: var(--accent-color);
-}
+} */
 
 /* Стилізація backdrop */
 .backdrop-container {
