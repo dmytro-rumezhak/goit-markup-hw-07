@@ -18,9 +18,9 @@
   <body>
     <!-- header сайту -->
     <header class="page-header">
-      <div class="container container--header">
+      <div class="container container__header">
         <div class="main-menu">
-          <a href="./index.html" class="logo logo--header"
+          <a href="./index.html" class="logo logo__header"
             >Web<span class="logo logo--dark">Studio</span>
           </a>
           <nav class="nav">
@@ -470,93 +470,97 @@
 
     <!-- footer сайту -->
     <footer class="footer">
-      <div class="container">
-        <div class="footer-left-container">
-          <a href="./index.html" class="logo logo-footer"
-            >Web<span class="span-white">Studio</span></a
+      <div class="container container__footer">
+        <div class="footer_address-box">
+          <a href="./index.html" class="logo logo__footer"
+            >Web<span class="logo logo--light">Studio</span></a
           >
-          <address class="footer-address">
+          <address class="address">
             <ul>
-              <li>
+              <li class="address__item">
                 <a
                   href="https://goo.gl/maps/K3Pn72QrReQsGpMP8"
-                  class="footer-address-link"
+                  class="address__link"
                   target="_blank"
                   rel="noopener noreferrer"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li>
-                <a href="mailto:info@devstudio.com" class="footer-contact-link"
+              <li class="address__item">
+                <a href="mailto:info@devstudio.com" class="address__link address__link--contacts"
                   >info@devstudio.com</a
                 >
               </li>
-              <li><a href="tel:+380961111111" class="footer-contact-link">+38 096 111 11 11</a></li>
+              <li class="address__item">
+                <a href="tel:+380961111111" class="address__link address__link--contacts"
+                  >+38 096 111 11 11</a
+                >
+              </li>
             </ul>
           </address>
         </div>
-        <div class="footer-center-container">
-          <h3 class="footer-center-title">Присоединяйтесь</h3>
+        <div class="footer__social-box">
+          <h3 class="footer__title">Присоединяйтесь</h3>
           <ul class="social">
             <li class="social__item">
               <a
-                class="social__link footer-social"
+                class="social__link social__footer"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social__icon">
+                <svg class="social__icon social__icon--light">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
               <a
-                class="social__link footer-social"
+                class="social__link social__footer"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social__icon">
+                <svg class="social__icon social__icon--light">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
               <a
-                class="social__link footer-social"
+                class="social__link social__footer"
                 href="facebook.com"
                 target="_blank"
                 rel="noopener norferrer"
               >
-                <svg class="social__icon">
+                <svg class="social__icon social__icon--light">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
               <a
-                class="social__link footer-social"
+                class="social__link social__footer"
                 href="https://linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social__icon">
+                <svg class="social__icon social__icon--light">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="footer-form-container">
-          <h3 class="footer-form-title">Подпишитесь на рассылку</h3>
-          <form class="footer-form">
-            <label class="footer-form-label">
-              <input type="email" placeholder="E-mail" class="footer-form-input" />
+        <div class="footer__form-box">
+          <h3 class="footer__title">Подпишитесь на рассылку</h3>
+          <form class="footer__form">
+            <label class="footer__form-label">
+              <input type="email" placeholder="E-mail" class="footer__form-input" />
             </label>
-            <button type="submit" class="btn-send">
+            <button type="submit" class="footer__btn-send">
               Подписаться
-              <svg class="form-icon-send">
+              <svg class="footer__form-icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -566,51 +570,51 @@
     </footer>
 
     <!-- Backdrop -->
-    <div class="backdrop-container is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="btn-backdrop-close" data-modal-close>
-          <svg class="backdrop-close">
+        <button class="modal__close" data-modal-close>
+          <svg class="modal__close-icon">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <h2 class="backdrop-modal-title">Оставьте свои данные, мы вам перезвоним</h2>
-        <form class="modal-form">
-          <label class="modal-form-label"
-            ><span class="modal-form-label-text">Имя</span>
-            <input type="text" name="name" placeholder=" " class="modal-form-input" />
-            <svg class="modal-form-label-icon">
+        <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
+        <form class="modal__form">
+          <label class="modal__form-label"
+            ><span class="modal__form-text">Имя</span>
+            <input type="text" name="name" placeholder=" " class="modal__form-input" />
+            <svg class="modal__form-icon">
               <use href="./images/icons.svg#icon-person-form"></use>
             </svg>
           </label>
-          <label class="modal-form-label"
-            ><span class="modal-form-label-text">Телефон</span>
-            <input type="tel" name="tel" placeholder=" " class="modal-form-input" />
-            <svg class="modal-form-label-icon">
+          <label class="modal__form-label"
+            ><span class="modal__form-text">Телефон</span>
+            <input type="tel" name="tel" placeholder=" " class="modal__form-input" />
+            <svg class="modal__form-icon">
               <use href="./images/icons.svg#icon-phone-form"></use>
             </svg>
           </label>
-          <label class="modal-form-label"
-            ><span class="modal-form-label-text">Почта</span>
-            <input type="email" name="email" placeholder=" " class="modal-form-input" />
-            <svg class="modal-form-label-icon">
+          <label class="modal__form-label"
+            ><span class="modal__form-text">Почта</span>
+            <input type="email" name="email" placeholder=" " class="modal__form-input" />
+            <svg class="modal__form-icon">
               <use href="./images/icons.svg#icon-email-form"></use>
             </svg>
           </label>
-          <label class="modal-form-label modal-form-label-textarea"
-            ><span class="modal-form-label-text">Комментарий</span>
+          <label class="modal__form-label modal__form-label--textarea"
+            ><span class="modal__form-text">Комментарий</span>
             <textarea
               name="coment"
               placeholder="Введите текст"
-              class="modal-form-textarea"
+              class="modal__form-textarea"
             ></textarea>
           </label>
-          <label class="modal-form-label-checkbox">
-            <input type="checkbox" name="checkbox" class="checkbox" />
-            <span class="form-checkbox-icon"></span>
+          <label class="modal__form-checkbox">
+            <input type="checkbox" name="checkbox" class="modal__checkbox" />
+            <span class="form__checkbox-icon"></span>
             Соглашаюсь с рассылкой и принимаю
-            <a href="./" class="form-checkbox-link">Условия договора</a>
+            <a href="./" class="form__checkbox-link">Условия договора</a>
           </label>
-          <button type="submit" class="btn btn-modal-form">Отправить</button>
+          <button type="submit" class="btn btn__modal">Отправить</button>
         </form>
       </div>
     </div>

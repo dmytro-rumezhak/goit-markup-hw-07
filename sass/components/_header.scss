@@ -7,22 +7,6 @@
   align-items: center;
 }
 
-.logo {
-  font-weight: $logoFontFamily, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: $accentColor;
-
-  &--header {
-    margin-right: 93px;
-  }
-
-  &--dark {
-    color: $colorBlack;
-  }
-}
-
 .nav-list {
   display: inline-flex;
 }
